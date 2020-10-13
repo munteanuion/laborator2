@@ -19,17 +19,17 @@ public class Laptop extends Specificatii {
     @Override
     public String toString() {
         return "Laptop{" + '\n' +
-                "marca=" + marca + '\n' +
-                "anul=" + anul + '\n' +
-                "pretul=" + pretul +  '\n' +
-                "procesor=" + procesor + '\n' +
-                "ram=" + ram + '\n' +
-                "modelram=" + modelram + '\n' +
-                "caphard=" + caphard + '\n' +
-                "masurahard=" + masurahard + '\n' +
-                "freqprocesor=" + freqprocesor + '\n' +
-                "masurafreq=" + masurafreq + '\n' +
-                "sistemOp=" + sistemOp + '\n' +
+                "marca= " + marca + '\n' +
+                "anul= " + anul + '\n' +
+                "pretul= " + pretul +  '\n' +
+                "procesor= " + procesor + '\n' +
+                "ram= " + ram + '\n' +
+                "modelram= " + modelram + '\n' +
+                "caphard= " + caphard + '\n' +
+                "masurahard= " + masurahard + '\n' +
+                "freqprocesor= " + freqprocesor + '\n' +
+                "masurafreq= " + masurafreq + '\n' +
+                "sistemOp= " + sistemOp + '\n' +
                 '}';
     }
 

@@ -13,15 +13,15 @@ public class Main {
         Scanner var = new Scanner(System.in);
         int var1;
 
-        System.out.println("Introduceti Pretul nou al produsului: \n");
+        System.out.println("Introduceti Pretul nou al produsului: ");
         var1 = var.nextInt();
         pc1.setPretul(var1);
 
-        System.out.println("Introduceti Anul nou al produsului \n");
+        System.out.println("Introduceti Anul nou al produsului ");
         var1 = var.nextInt();
         pc1.setAnul(var1);
 
-        System.out.println("Introduceti capacitatea Ram noua al produsului: \n");
+        System.out.println("Introduceti capacitatea Ram noua al produsului: ");
         var1 = var.nextInt();
         pc1.setRam(var1);
 

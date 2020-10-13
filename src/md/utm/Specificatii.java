@@ -26,13 +26,13 @@ public class Specificatii extends SistemulOperare
     @Override
     public String toString() {
         return "Specificatii{" +
-                "procesor='" + procesor + '\'' +
-                ", ram=" + ram +
-                ", modelram='" + modelram + '\'' +
-                ", caphard=" + caphard +
-                ", masurahard='" + masurahard + '\'' +
-                ", freqprocesor=" + freqprocesor +
-                ", masurafreq='" + masurafreq + '\'' +
+                "procesor= " + procesor + '\n' +
+                "ram= " + ram + '\n' +
+                "modelram= " + modelram + '\n' +
+                "caphard= " + caphard + '\n' +
+                "masurahard= " + masurahard + '\n' +
+                "freqprocesor= " + freqprocesor + '\n' +
+                "masurafreq= " + masurafreq + '\n' +
                 '}';
     }
 

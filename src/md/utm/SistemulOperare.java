@@ -20,7 +20,7 @@ public class SistemulOperare
     @Override
     public String toString() {
         return "SistemulOperare{" +
-                "sistemOp='" + sistemOp + '\'' +
+                "sistemOp= " + sistemOp + '\n' +
                 '}';
     }
 }
