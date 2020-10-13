@@ -1,7 +1,9 @@
 package md.utm;
 
-public class SistemulOperare {
+public class SistemulOperare
+{
     String sistemOp;
+
     public SistemulOperare( String sistemOp)
     {
         this.sistemOp = sistemOp;
@@ -13,5 +15,12 @@ public class SistemulOperare {
 
     public String getSistemOp() {
         return sistemOp;
+    }
+
+    @Override
+    public String toString() {
+        return "SistemulOperare{" +
+                "sistemOp='" + sistemOp + '\'' +
+                '}';
     }
 }

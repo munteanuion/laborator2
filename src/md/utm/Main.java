@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
     Laptop pc1 = new Laptop("HP", 2019,10000,"Intel Core i5, 10 TH Gen", 3.6f,
             "GHz", 8, "DDR4", 256, "GB", "Ubuntu 20.04");
-        System.out.println(pc1.printall());
+        System.out.println(pc1.toString());
         System.out.println("\n***************************************");
 
         Scanner var = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Main {
         pc1.setRam(var1);
 
         System.out.println("\n***************************************");
-        System.out.println(pc1.printall());
+        System.out.println(pc1.toString());
         System.out.println("\n***************************************");
         System.out.println(pc1.getSistemOp() + "\n" + pc1.getProcesor() + "\n" + pc1.getMarca());
     }

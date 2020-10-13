@@ -1,20 +1,36 @@
 package md.utm;
 
-public class Laptop extends Specificatii{
+public class Laptop extends Specificatii {
+
     String marca;
     int anul;
     int pretul;
-    public Laptop(String marca, int anul, int pretul, String procesor, float freqprocesor, String masurafreq, int ram, String modelram, int caphard, String masurahard, String sistemOp){
+
+    public Laptop(String marca, int anul, int pretul, String procesor, float freqprocesor, String masurafreq,
+                  int ram, String modelram, int caphard, String masurahard, String sistemOp)
+    {
         super( procesor, freqprocesor, masurafreq, ram, modelram, caphard, masurahard, sistemOp);
         this.marca = marca;
         this.anul = anul;
         this.pretul = pretul;
 
     }
-    public String printall(){
-        return (" Marca: " + this.marca + "\n Anul: " + this.anul + "\n Pretul: " + this.pretul + " lei\n Procesorul: " + this.procesor +
-                "\n Frequency procesor: " + this.freqprocesor + " " + this.masurafreq + "\n Capacitate Ram: " + this.ram + " "
-                + this.modelram + "\n Capacitate SSD: " + this.caphard + " " + this.masurahard + "\n Sitema de operare: " + this.sistemOp);
+
+    @Override
+    public String toString() {
+        return "Laptop{" + '\n' +
+                "marca=" + marca + '\n' +
+                "anul=" + anul + '\n' +
+                "pretul=" + pretul +  '\n' +
+                "procesor=" + procesor + '\n' +
+                "ram=" + ram + '\n' +
+                "modelram=" + modelram + '\n' +
+                "caphard=" + caphard + '\n' +
+                "masurahard=" + masurahard + '\n' +
+                "freqprocesor=" + freqprocesor + '\n' +
+                "masurafreq=" + masurafreq + '\n' +
+                "sistemOp=" + sistemOp + '\n' +
+                '}';
     }
 
     public void setMarca(String marca) {

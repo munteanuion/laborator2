@@ -1,6 +1,8 @@
 package md.utm;
 
-public class Specificatii extends SistemulOperare{
+public class Specificatii extends SistemulOperare
+{
+
     String procesor;
     int ram;
     String modelram;
@@ -9,7 +11,8 @@ public class Specificatii extends SistemulOperare{
     float freqprocesor;
     String masurafreq;
 
-    public Specificatii(String procesor, float freqprocesor, String masurafreq, int ram, String modelram,  int caphard, String masurahard, String sistemOp){
+    public Specificatii(String procesor, float freqprocesor, String masurafreq, int ram, String modelram,  int caphard, String masurahard, String sistemOp)
+    {
         super(sistemOp);
         this.procesor = procesor;
         this.ram = ram;
@@ -18,6 +21,19 @@ public class Specificatii extends SistemulOperare{
         this.masurahard = masurahard;
         this.freqprocesor = freqprocesor;
         this.masurafreq = masurafreq;
+    }
+
+    @Override
+    public String toString() {
+        return "Specificatii{" +
+                "procesor='" + procesor + '\'' +
+                ", ram=" + ram +
+                ", modelram='" + modelram + '\'' +
+                ", caphard=" + caphard +
+                ", masurahard='" + masurahard + '\'' +
+                ", freqprocesor=" + freqprocesor +
+                ", masurafreq='" + masurafreq + '\'' +
+                '}';
     }
 
     @Override
